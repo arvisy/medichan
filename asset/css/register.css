@@ -1,0 +1,95 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 90vh;
+    margin: 0;
+    background-color: pink;
+}
+
+.container {
+    padding: 20px;
+    width: 340px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px palevioletred;
+    opacity: 0.8;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    box-sizing: border-box;
+    background-color: palevioletred;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    background-color: pink;
+}
+
+.field-form {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+
+.horizontal-line {
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid palevioletred;
+}
+
+.field-form p, a {
+    text-align: center;
+    text-decoration: none;
+}
+
+.field-form a {
+    color: pink;
+}
+
+.field-form a:hover {
+    color: palevioletred;
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+.input-with-icon img {
+    position: absolute;
+    top: 50%;
+    left: 10px; 
+    transform: translateY(-50%);
+    width: 15px; 
+    height: 15px;
+}
+
+.input-with-icon input {
+    padding-left: 35px;
+}
+
+input:focus {
+    border: 2px solid pink;
+    outline: none;
+}
