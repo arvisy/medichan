@@ -1,5 +1,5 @@
 # Medichan
-<img align="right" width="250px" src="../image/logo.png">
+<img align="right" width="250px" src="/image/logo.jpg">
 
 A web-based e-commerce application for selling medicine.
 ---
